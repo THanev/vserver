@@ -1,2 +1,1 @@
-spawnpoint 'player_three' { x = -262.849, y = 793.404, z = 118.087 }
-spawnpoint 'player_zero' { x = -262.849, y = 793.404, z = 118.087 }
+spawnpoint 'a_m_y_hipster_02' { x = -155.3307342529297, y = 859.9042358398438, z = 232.2334747314453 }

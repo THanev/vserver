@@ -16,3 +16,10 @@ RegisterCommand("teleport", async (source, args) => {
 
   emitNet("sv:tp", { playerPed, pos });
 });
+
+RegisterCommand("teleport2", async (source, args) => {
+  const ped = PlayerPedId();
+  SetEntityCoords(ped, -155.3307342529297, 859.9042358398438, 232.2334747314453, false, false, false, true);
+
+  emitNet("sv:tp", { playerPed, pos });
+});
