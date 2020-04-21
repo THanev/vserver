@@ -19,3 +19,13 @@ onNet("sv:tp", (obj) => {
   let data = JSON.stringify(position);
   fs.writeFileSync('position.json', data);
 });
+
+// todo: add multiple chat events based on System, Player, Admin
+//  and so on with reusable and global accessible colors
+onNet("sv:chat", function (msg, color) {
+  emitNet("chat:addMessage", -1, {
+    args: ["System ", msg],
+    color: color,
+    multiline: true
+  })
+})
