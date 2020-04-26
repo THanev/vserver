@@ -1,0 +1,21 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "rules": {
+    "max-line-length": [
+      true,
+      170
+    ],
+    "no-any": false,
+    "trailing-comma": true,
+    "no-console": false,
+    "no-unused-variable": false,
+    "no-unused-expression": false,
+    "object-literal-shorthand": false,
+    "only-arrow-functions": false,
+    "no-var-requires": false
+  },
+  "rulesDirectory": []
+}

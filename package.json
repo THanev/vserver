@@ -1,5 +1,20 @@
 {
   "scripts": {
     "start": "start launcher.bat"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-tslint": "^8.1.4",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.3.35",
+    "@types/node": "^13.13.2",
+    "del": "^5.1.0",
+    "gulp-copy": "^4.0.1",
+    "gulp-minify": "^3.1.0",
+    "gulp-plumber": "^1.2.1"
   }
 }
