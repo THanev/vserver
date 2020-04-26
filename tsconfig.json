@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "rootDir": "root/src",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es2017",
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "outDir": "resources/[dist]",
+  },
+  "include": [
+    "resources/",
+    "root"
+  ]
+}

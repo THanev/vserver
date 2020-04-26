@@ -1,0 +1,53 @@
+.bg-darken{
+	font-family: sans-serif;
+	overflow: hidden;
+	display: flex;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.7), 
+		rgba(0, 0, 0, 0.7)
+	);
+}
+
+a:hover, button:hover {
+transition: 0.1s;
+cursor: pointer;
+}
+
+#container {
+	width: 300px;
+	margin: auto;
+	margin-bottom: 100px;
+	padding: 5px;
+	background-color: gray;
+	border-radius: 10px;
+}
+
+form {
+	margin: 0;
+}
+
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 10px;
+}
+button {
+	display: block;
+	margin-top: 5px;
+	padding: 10px;
+	background-color: #286090;
+	border: 0;
+	color: black;
+	width: 100%;
+outline: none;
+}
+#leave {
+	background-color: #CD0000;
+}
+#unlock{
+	background-color: yellowgreen;
+}
+button:hover, #leave:hover {
+	background-color: grey;
+transition: 0.1s;
+cursor: pointer;
+}
